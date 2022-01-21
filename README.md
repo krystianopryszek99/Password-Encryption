@@ -6,11 +6,12 @@
 ## Table Of Content
 - [Overview](#Overview)
 - [Installation](#Installation)
+- [How to Run](#How-to-run)
 - [References](#Refrences)
 
 ## Overview
 
-`Cryptography` is a Python module that provides cryptographic techniques and methods.
+`Cryptography` is a Python module that provides cryptographic techniques and methods. User is asked to enter name and password, this gets stored to a `passwords.txt`. The user's password is encrypted using bytes which is not human readable.
 
 ```
 >>> from cryptography.fernet import Fernet
